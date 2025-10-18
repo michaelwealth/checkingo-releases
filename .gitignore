@@ -1,0 +1,48 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Build Artifacts (keep only APK files)
+*.log
+*.class
+*.dex
+*.cache
+
+# Exclude build artifacts in releases folder, keep APK files and README
+releases/**/*.log
+releases/**/*.tmp
+releases/**/*.cache
+
+# Node modules if any
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Package Files (keep APK files)
+!*.apk

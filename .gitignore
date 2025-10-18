@@ -14,7 +14,6 @@ Thumbs.db
 *.bak
 *.swp
 *.swo
-*~
 
 # IDE and Editor Files
 .vscode/
@@ -32,10 +31,10 @@ Thumbs.db
 *.dex
 *.cache
 
-# Exclude everything in releases folder except APK files
-releases/*
-!releases/*.apk
-!releases/README.md
+# Exclude build artifacts in releases folder, keep APK files and README
+releases/**/*.log
+releases/**/*.tmp
+releases/**/*.cache
 
 # Node modules if any
 node_modules/
